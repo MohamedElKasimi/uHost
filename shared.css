@@ -1,0 +1,137 @@
+* {
+ box-sizing: border-box;
+}
+
+html{
+    margin-top: 40px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    height: 100%;
+}
+
+.backdrop{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.main-header{
+    background: #2ddf5c;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2px 16px;
+    border-radius: 0 0 6px 6px;
+    z-index: 1;
+}
+
+.main-header > div{
+    display: inline-block;
+}
+
+.main-header_brand{
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.main-header_brand img{
+    width: 45px;
+    padding: 0;
+}
+
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 49.5px);
+    vertical-align: middle;
+}
+.main-nav_items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav_item{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main-nav_item a{
+    color: #0e4f1f;
+    text-decoration: none;
+    padding: 2px 0;
+}
+
+.main-nav_item a:hover {
+    color: rgb(227, 238, 242);
+    transition: 0.2s;
+    border-top: 2px solid rgb(227, 238, 242);
+}
+.main-nav_item--cta a{
+    color: white;
+    background: maroon;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav_item--cta a:hover{
+    color: maroon;
+    background: white;
+}
+
+button{
+    background-color: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 1px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #0e4f1f;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.main-footer{
+    background-color: black;
+    padding: 32px;
+    margin-top: 48px;
+}
+
+.main-footer__links{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-footer__link{
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-footer__link a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer__link a:hover{
+    color: #ccc;
+}
