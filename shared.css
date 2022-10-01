@@ -20,9 +20,10 @@ body{
     background-color: rgba(0,0,0,0.5);
 }
 
+/*2ddf5c*/
 
 .main-header{
-    background: #2ddf5c;
+    background: blue;
     width: 100%;
     position: fixed;
     top: 0;
